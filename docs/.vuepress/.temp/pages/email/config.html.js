@@ -1,5 +1,5 @@
-import comp from "D:/email_doc/vuepress-doc/docs/.vuepress/.temp/pages/404.html.vue"
-const data = JSON.parse("{\"path\":\"/404.html\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{\"layout\":\"NotFound\"},\"headers\":[],\"git\":{},\"filePathRelative\":null}")
+import comp from "D:/email_doc/vuepress-doc/docs/.vuepress/.temp/pages/email/config.html.vue"
+const data = JSON.parse("{\"path\":\"/email/config.html\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{},\"filePathRelative\":\"email/config.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
