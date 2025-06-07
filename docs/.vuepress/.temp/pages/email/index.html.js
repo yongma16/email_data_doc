@@ -1,5 +1,5 @@
-import comp from "D:/email_doc/vuepress-doc/docs/.vuepress/.temp/pages/email/index.html.vue"
-const data = JSON.parse("{\"path\":\"/email/\",\"title\":\"emailIntroduce.md\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{},\"filePathRelative\":\"email/readme.md\"}")
+import comp from "G:/front_projects/doc/email_data_doc/docs/.vuepress/.temp/pages/email/index.html.vue"
+const data = JSON.parse("{\"path\":\"/email/\",\"title\":\"emailIntroduce.md\",\"lang\":\"zh-CN\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":1749180687000,\"contributors\":[{\"name\":\"mayong\",\"username\":\"mayong\",\"email\":\"v_bymyma@tencent.com\",\"commits\":1,\"url\":\"https://github.com/mayong\"}],\"changelog\":[{\"hash\":\"fae70fc0a2414105dfc9fa2b0484e822aac47464\",\"time\":1749180687000,\"email\":\"v_bymyma@tencent.com\",\"author\":\"mayong\",\"message\":\"feat: test\"}]},\"filePathRelative\":\"email/readme.md\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
