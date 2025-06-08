@@ -33,7 +33,8 @@ export default defineUserConfig({
             "/email/": [{
                 title: "邮件文档",
                 collapsable: true,
-                children: getChildren("./docs/email"), // 自动读取email目录
+                children: getChildren("./docs/email"),
+                // 自动读取email目录
             }, ],
         },
     }),
