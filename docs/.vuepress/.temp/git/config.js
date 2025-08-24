@@ -1,5 +1,5 @@
-import { GitContributors } from "D:/email_doc/vuepress-doc/node_modules/@vuepress/plugin-git/lib/client/components/GitContributors.js";
-import { GitChangelog } from "D:/email_doc/vuepress-doc/node_modules/@vuepress/plugin-git/lib/client/components/GitChangelog.js";
+import { GitContributors } from "G:/front_projects/doc/email_data_doc/node_modules/@vuepress/plugin-git/lib/client/components/GitContributors.js";
+import { GitChangelog } from "G:/front_projects/doc/email_data_doc/node_modules/@vuepress/plugin-git/lib/client/components/GitChangelog.js";
 
 export default {
   enhance: ({ app }) => {
