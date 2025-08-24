@@ -9,6 +9,7 @@ import * as clientConfig7 from 'G:/front_projects/doc/email_data_doc/docs/.vuepr
 import * as clientConfig8 from 'G:/front_projects/doc/email_data_doc/docs/.vuepress/.temp/markdown-tab/config.js'
 import * as clientConfig9 from 'G:/front_projects/doc/email_data_doc/node_modules/@vuepress/plugin-theme-data/lib/client/config.js'
 import * as clientConfig10 from 'G:/front_projects/doc/email_data_doc/node_modules/@vuepress/theme-default/lib/client/config.js'
+import * as clientConfig11 from 'G:/front_projects/doc/email_data_doc/docs/.vuepress/client.js'
 
 export const clientConfigs = [
   clientConfig0,
@@ -22,4 +23,5 @@ export const clientConfigs = [
   clientConfig8,
   clientConfig9,
   clientConfig10,
+  clientConfig11,
 ].map((m) => m.default).filter(Boolean)
