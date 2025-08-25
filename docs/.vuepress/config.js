@@ -64,7 +64,7 @@ export default defineUserConfig({
 
     // 头部配置
     head: [
-        ['link', { rel: 'icon', href: '/favicon.ico' }],
+        ['link', { rel: 'icon', href: '/images/logo.png' }],
         ['meta', { name: 'keywords', content: '邮件模板,邮件分析,邮件管理' }],
         ['meta', { name: 'description', content: '专业的邮件模板分析与管理系统' }],
     ],
@@ -91,4 +91,11 @@ export default defineUserConfig({
     host: 'localhost',
     port: 8080,
     open: true,
+    configureWebpack: {
+        resolve: {
+          alias: {
+            '@alias': 'path/to/some/dir'
+          }
+        }
+      }
 })

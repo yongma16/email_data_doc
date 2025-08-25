@@ -14,7 +14,13 @@ export default defineClientConfig({
     router.beforeEach((to, from, next) => {
       // 页面切换前的逻辑
       console.log(`导航到: ${to.path}`)
-      next()
+      if(to.path==='/'){
+        next('/email/')
+      }
+      else{
+        next()
+      }
+      
     })
     
     router.afterEach((to, from) => {
