@@ -1,7 +1,9 @@
 /node_modules
-.cache
-.temp/*
+.cache/
+.temp/
 .DS_Store
 .env.local
 .env.development.local
-dist
+dist/
+docs/.vuepress/.cache/
+docs/.vuepress/.temp/
